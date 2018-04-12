@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+ 	height:400px;
+ 	width:760px;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background: linear-gradient(to right, lightgrey , lightblue);
+}
+
+li {
+    float: right;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+	padding-bottom:0px;
+    text-decoration: none;
+	font-family:gill sans;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+	font-family: "Helvetica Neue";
+}
+
+a:hover {
+	background-color: lightpink;
+	border-radius: 5px;
+}
+
+body {
+	background: linear-gradient(to right, lightgrey , lightblue);
+	height: 800px;
+	width: 1300px;
+	margin:auto;
+	
+}
+
+#circles {
+	background: linear-gradient(to right, lightgrey , lightblue);
+	height: 800px;
+	height:300px;
+	width: 1300px;
+	margin:auto;
+}
+
+
+.circlepic {
+	display: block;
+	border-radius: 100%;
+	margin-left: 12px;
+	width: 300px;
+	height: auto;
+	border: dashed 5px lightpink;
+	 -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+
+}
+
+.circlepic:hover {
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.bigtext {
+	font-size: 60px;
+	color:white;
+	font-family:  "Helvetica Neue", Helvetica;
+	positon: relative;
+	left: 600px;
+	text-shadow: 9px 2px lightpink;
+}
+
+header {
+	font-size: 80px;
+	color:white;
+	font-family:  "Helvetica Neue", Helvetica;
+	positon: relative;
+	left: 600px;
+	text-shadow: 9px 2px lightpink;
+}
+p {
+	color: white;
+	font-size: 23px;
+	position: relative;
+	top: -70px;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+.smalltext {
+	width:650px;
+	position:relative;
+	left:200px;
+}
+
+#profilepic {
+	
+		display:inline-block;
+	
+	
+}
+
+#headphones {
+	display:inline-block;
+	
+}
+
+#poster {
+		display:inline-block;
+	
+}
+
+#daisy {
+	display:inline-block;
+}
+
+.imagetext {
+	position: relative;
+    top: -150px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+	font-family: "Helvetica Neue", Helvetica;
+	color:white;
+	text-shadow: 3px 2px lightpink;
+}
+
+a {
+	text-decoration:none;
+}
+
+footer {
+	position:relative;
+	bottom:-285px;
+	left: 550px;
+	font-variant: small-caps;
+	font-family: "Helvetica Neue", Helvetica;
+	color: white;
+}
+
+.fourvids {
+	height: 700px;
+	width:1300px;
+	margin: auto;
+}
+
+.vid12 {
+	float:left;
+}
+
+#vid2 {
+	position:relative;
+	left: 10px;
+}
+#vid3 {
+	position:relative;
+	top: -70px;
+	
+}
+
+#vid4 {
+	position:relative;
+	top: -508px;
+	left: 650px;
+}

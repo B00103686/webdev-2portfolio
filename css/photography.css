@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+ 	height:600px;
+ 	width:760px;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background: linear-gradient(to right, lightblue, lightgrey);
+	
+}
+
+li {
+    float: right;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+	padding-bottom:0px;
+    text-decoration: none;
+	font-family:gill sans;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+	font-family: "Helvetica Neue";
+}
+
+a:hover {
+	background-color: lightblue;
+	border-radius: 5px;
+}
+
+body { 
+	background: linear-gradient(to right, lightblue , lightgrey);
+	height: 800px;
+	width: 1300px;
+	width: 90%;
+	margin: 0 auto;
+}
+	
+header {
+	font-size: 150px;
+	color:white;
+	font-family:  "Helvetica Neue", Helvetica;
+	positon: relative;
+	left: 600px;
+	text-shadow: 9px 2px lightpink;
+}
+
+.photos {
+	height:300px;
+	width:auto;
+	margin:2px;
+	padding:2px;
+}
+
+.products {
+	height:300px;
+	width:230px;
+	margin:2px;
+	padding:2px;
+}
+.column1of3 {
+	float: right;
+	width: 30%;
+	margin: 1%; 
+	padding:2%;
+}
+.column2of3 {
+	float: right;
+	width: 30%;
+	margin: 1%; 
+	padding: 2%
+}
+
+.column3of3 {
+	clear:both;
+	width: 30%;
+	margin: 1%; 
+	padding: 2%
+}
